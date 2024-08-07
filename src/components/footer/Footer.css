@@ -1,0 +1,27 @@
+.foot {
+    background-color: #1787e0;
+    padding: 30px;
+}
+
+.imgFooter {
+    border-radius: 20px;
+    height: 300px;
+    position: relative;
+    width: 300px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.imgFooter h2 {
+    background-color: #fff;
+    border-radius: 5px;
+    color:#1787e0;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    width: fit-content;
+    text-align: center;
+}
+
+.imgFooter h3{
+    color: #fff ;
+}

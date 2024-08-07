@@ -1,0 +1,16 @@
+.end{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.end a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color:#1787e0;
+    display: inline-block;
+    border-radius: 10px;
+    margin-right: 10px;
+}

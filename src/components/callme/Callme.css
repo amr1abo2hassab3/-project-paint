@@ -1,0 +1,23 @@
+
+.numPhone{
+    background-color:rebeccapurple ;
+    border: 1px solid white;
+    padding: 15px 20px;
+    border-radius: 15px;
+    margin-top: 10px;
+    transition: all 0.5s ease-in-out;
+}
+a .numPhone {
+    text-decoration: none;
+    color: white ;
+}
+
+.numPhone:hover{
+    background-color: white;
+    border: 1px solid rebeccapurple;
+    
+}
+
+a .numPhone:hover  {
+    color: rebeccapurple !important;
+}

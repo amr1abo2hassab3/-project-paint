@@ -1,0 +1,43 @@
+.box {
+    background-color: #fff;
+    background-size: cover;
+    z-index: 2;
+    border-radius: 10px;
+    height: fit-content;
+    margin-bottom: 15px;
+    padding: 20px;
+    position: relative;
+}
+
+.box::after {
+    background-color: #1787e0;
+    bottom: -8px;
+    content: "";
+    height: 3px;
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 70%;
+}
+
+.box h2 {
+    color: #1787e0;
+    font-size: 40px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+}
+
+.info img {
+    height: 50%;
+    margin-right: 10px;
+    width: 150px;
+}
+
+.numerPhobe {
+    color: #1787e0;
+    font-weight: bold;
+}

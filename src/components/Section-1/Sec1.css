@@ -1,0 +1,20 @@
+
+.Sec1{
+    margin-top: 30px;
+    background-color: #eeeeee;
+    padding: 20px 0;
+    border-radius: 20px;
+}
+
+.img_sec1{
+    overflow: hidden;
+    border-radius: 30px;
+    height: 100%;
+}
+.text_sec1{
+    text-align: center;
+}
+
+.text_sec1 ul{
+    margin-top: 10px;
+}   

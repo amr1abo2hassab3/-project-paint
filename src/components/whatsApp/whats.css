@@ -1,0 +1,16 @@
+.whatsPhone {
+    background-color: rgba(0, 128, 0, 0.802);
+    border: 1px solid white;
+    padding: 15px 20px;
+    border-radius: 15px;
+    margin-top: 10px;
+    transition: all 0.5s ease-in-out;
+    margin-right: 10px;
+    color: white;
+}
+
+.whatsPhone:hover{
+    background-color: white;
+    border: 1px solid rgba(0, 128, 0, 0.802);
+    color: rgba(0, 128, 0, 0.802);
+}

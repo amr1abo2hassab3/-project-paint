@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+import NavBar from './components/NavBar/NavBar';
+import Paint from './pages/Paint';
+import Footer from './components/footer/Footer';
+import Amr from './components/AmrAboHassab/Amr';
+import PageTop from './components/pageTop/PagTop';
+import ConatctCall from './components/contact/ContactCall';
+import ConatctWhats from './components/contactWats/ContactWhats';
+import NavList from './components/NavLinks/NavM';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <BrowserRouter>
+        <NavBar />
+      <NavList />
+        <ConatctCall />
+        <ConatctWhats />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/paint" element={<Paint />} />
+        </Routes>
+        <Footer />
+        <Amr />
+        <PageTop />
+      </BrowserRouter>
     </div>
   );
 }
 
 export default App;
+  
+

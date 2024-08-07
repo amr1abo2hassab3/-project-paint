@@ -18,7 +18,7 @@ const NavBar = () => {
             </Link>
           </li>
           <li>
-            <Link to={"https://wa.me/‎+965 ‎94903036"}>
+            <Link to="https://wa.me/96594903036" target="_blank"  >
               تواصل معنا <i className="bi bi-whatsapp"></i>
             </Link>
           </li>

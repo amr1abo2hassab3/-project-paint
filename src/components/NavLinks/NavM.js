@@ -44,7 +44,11 @@ const NavList = () => {
         </h4>
 
         <h4>
-          <Link to="https://wa.me/‎+965 ‎94903036" className="tellWhats">
+          <Link
+            to="https://wa.me/96594903036"
+            target="_blank"
+            className="tellWhats"
+          >
             {" "}
             تواصل معنا <i className="bi bi-whatsapp"></i>
           </Link>

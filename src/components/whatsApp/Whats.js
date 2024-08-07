@@ -4,7 +4,7 @@ import "./whats.css";
 
 const WhatsApp = () => {
   return (
-    <Link to="https://wa.me/‎+965 ‎94903036">
+    <Link to="https://wa.me/96594903036" target="_blank">
       <button className="whatsPhone">
         تواصل معنا <i className="bi bi-whatsapp"></i>
       </button>

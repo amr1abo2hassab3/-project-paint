@@ -1,7 +1,7 @@
 .listLinks {
     width: 300px;
     background-color: #d6cedfdb;
-    height: 500px;
+    height: 600px;
     position: fixed;
     z-index: 100000;
     right: -500px;
@@ -61,12 +61,26 @@
 }
 
 .tellCall i,
-.tellWhats i {
+.tellWhats i ,
+.tellinstgram i {
     font-size: 20px;
 }
 
 .tellWhats {
     background-color: rgba(0, 128, 0, 0.802);
+    border: 2px solid white;
+    padding: 15px 20px;
+    border-radius: 15px;
+    margin-top: 10px;
+    transition: all 0.5s ease-in-out;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.tellinstgram {
+    background-color: #6228d7;
     border: 2px solid white;
     padding: 15px 20px;
     border-radius: 15px;

@@ -18,8 +18,13 @@ const NavBar = () => {
             </Link>
           </li>
           <li>
-            <Link to="https://wa.me/96594903036" target="_blank"  >
+            <Link to="https://wa.me/96594903036" target="_blank">
               تواصل معنا <i className="bi bi-whatsapp"></i>
+            </Link>
+          </li>
+          <li>
+            <Link to="https://www.instagram.com/abdo34131/" target="_blank">
+              اذهب لرؤية اعمالنا <i class="bi bi-instagram"></i>
             </Link>
           </li>
         </ul>

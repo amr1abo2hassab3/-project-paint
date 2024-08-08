@@ -53,6 +53,26 @@ const NavList = () => {
             تواصل معنا <i className="bi bi-whatsapp"></i>
           </Link>
         </h4>
+        <h4>
+          <Link
+            to="https://www.instagram.com/abdo34131/"
+            target="_blank"
+            className="tellinstgram"
+          >
+            {" "}
+            اذهب لرؤية اعمالنا <i class="bi bi-instagram"></i>
+          </Link>
+        </h4>
+        <h4>
+          <Link
+            to="https://www.facebook.com/profile.php?id=100093411292822&mibextid=ZbWKwL"
+            target="_blank"
+            className="tellinstgram"
+          >
+            {" "}
+            اذهب لرؤية اعمالنا <i class="bi bi-facebook"></i>
+          </Link>
+        </h4>
       </ul>
     </div>
   );

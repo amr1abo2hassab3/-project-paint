@@ -65,3 +65,12 @@
         display: block;
     }
 }
+@media (max-width:1200px) and (min-width:992px){
+.navSec ul li a{
+    font-size:10px ;
+}
+
+.navSec h1{
+    font-size: 30px;
+}
+}
